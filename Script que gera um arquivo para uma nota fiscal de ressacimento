@@ -113,7 +113,7 @@ Where
     
     
 	-- A partir daqui, começamos a montar nosso arquivo que será um TXT, que posteriormente será lido pelo integrador.
-	-- Todo o código a baixo, é fornecido pelo integrador, de acordo com a documentação do seu projeto.
+	-- Toda a estrura do  código a baixo, é desenvolvida de acordo com os dados fornecidos pelo integrador, de acordo com a documentação do seu projeto.
 	-- São separados vários sub selects , retornando os dados rerefentes a cada estrutura de dados solicitada no documento.
 	-- O primeiro, cabecalho da nota fiscal
 	-- O segundo, os dados da nota fiscal
