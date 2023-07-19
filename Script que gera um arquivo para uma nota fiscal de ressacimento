@@ -81,7 +81,10 @@ As
    NFEletronica As e With (NoLock)  
      On a.IdMovimento = e.fk_int_Idmovimento  
 
-  Where  
+-- Nesse where é definido através das condições, que esse arquivo é uma Nota Fiscal de Ressacimento.
+-- E  toda a estrutura dessa procedure, também foi feita pra atender uma unica marca.
+
+Where  
    a.ClassificaçãoMovimento = 2  
       And a.IdCancelamento Is Null  
       And a.IdTipoMovimento <> 533
